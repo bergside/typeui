@@ -22,26 +22,153 @@ Check out all [design skills](https://www.typeui.sh/design-skills) that can be p
 
 Browse all major UI prompt categories from [TypeUI Prompts](https://www.typeui.sh/prompts).
 
-| Prompt category | Prompt preview | Layouts |
-| --- | --- | --- |
-| [🔗 Hero Sections](https://www.typeui.sh/prompts/hero) | <img src="https://www.typeui.sh/prompts/marketing/hero/1-centered-stack-with-big-image-below.svg" alt="Hero Sections preview" width="180" /> | 17 |
-| [🔗 Pricing Sections](https://www.typeui.sh/prompts/pricing) | <img src="https://www.typeui.sh/prompts/marketing/pricing/1-three-pricing-cards-in-a-row.svg" alt="Pricing Sections preview" width="180" /> | 20 |
-| [🔗 Feature Sections](https://www.typeui.sh/prompts/feature) | <img src="https://www.typeui.sh/prompts/marketing/feature/1-left-aligned-intro-with-six-up-icon-grid.svg" alt="Feature Sections preview" width="180" /> | 16 |
-| [🔗 CTA Sections](https://www.typeui.sh/prompts/cta) | <img src="https://www.typeui.sh/prompts/marketing/cta/2-centered-headline-paragraph-and-dual-rounded-buttons.svg" alt="CTA Sections preview" width="180" /> | 11 |
-| [🔗 Content Sections](https://www.typeui.sh/prompts/content) | <img src="https://www.typeui.sh/prompts/marketing/content/1-two-column-split-copy-and-ctas-left-video-placeholder-right.svg" alt="Content Sections preview" width="180" /> | 12 |
-| [🔗 Contact Sections](https://www.typeui.sh/prompts/contact) | <img src="https://www.typeui.sh/prompts/marketing/contact/1-centered-heading-supporting-copy-and-stacked-form-with-dual-actions.svg" alt="Contact Sections preview" width="180" /> | 9 |
-| [🔗 Customer Logo Sections](https://www.typeui.sh/prompts/customer-logo) | <img src="https://www.typeui.sh/prompts/marketing/customer-logo/1-centered-kicker-and-single-wrapping-logo-row.svg" alt="Customer Logo Sections preview" width="180" /> | 10 |
-| [🔗 Team Sections](https://www.typeui.sh/prompts/team) | <img src="https://www.typeui.sh/prompts/marketing/team/1-four-column-grid-with-badge-role-and-contact-action.svg" alt="Team Sections preview" width="180" /> | 8 |
-| [🔗 Social Proof Sections](https://www.typeui.sh/prompts/social-proof) | <img src="https://www.typeui.sh/prompts/marketing/social-proof/1-centered-inline-stat-row.svg" alt="Social Proof Sections preview" width="180" /> | 11 |
-| [🔗 FAQ Sections](https://www.typeui.sh/prompts/faq) | <img src="https://www.typeui.sh/prompts/marketing/faq/1-centered-heading-with-single-column-accordion.svg" alt="FAQ Sections preview" width="180" /> | 8 |
-| [🔗 Testimonials](https://www.typeui.sh/prompts/testimonials) | <img src="https://www.typeui.sh/prompts/marketing/testimonials/1-centered-single-testimonial-with-decorative-quote-mark.svg" alt="Testimonials preview" width="180" /> | 8 |
-| [🔗 Blog Sections](https://www.typeui.sh/prompts/blog) | <img src="https://www.typeui.sh/prompts/marketing/blog/2-trending-topics-categorized-link-columns.svg" alt="Blog Sections preview" width="180" /> | 8 |
-| [🔗 Portfolio Sections](https://www.typeui.sh/prompts/portfolio) | <img src="https://www.typeui.sh/prompts/marketing/portfolio/2-uniform-six-card-grid.svg" alt="Portfolio Sections preview" width="180" /> | 7 |
-| [🔗 Newsletter Sections](https://www.typeui.sh/prompts/newsletter) | <img src="https://www.typeui.sh/prompts/marketing/newsletter/1-centered-stack-with-floating-avatar-portraits.svg" alt="Newsletter Sections preview" width="180" /> | 4 |
-| [🔗 Event Schedule Sections](https://www.typeui.sh/prompts/events) | <img src="https://www.typeui.sh/prompts/marketing/event-schedule/2-centered-single-day-ruled-timeline.svg" alt="Event Schedule Sections preview" width="180" /> | 4 |
-| [🔗 Footer Sections](https://www.typeui.sh/prompts/footer) | <img src="https://www.typeui.sh/prompts/marketing/footer/1-logo-links-and-copyright-centered-stack.svg" alt="Footer Sections preview" width="180" /> | 7 |
-| [🔗 Login Pages](https://www.typeui.sh/prompts/login) | <img src="https://www.typeui.sh/prompts/application/login/2-default-centered-card.svg" alt="Login Pages preview" width="180" /> | 5 |
-| [🔗 Register Pages](https://www.typeui.sh/prompts/register) | <img src="https://www.typeui.sh/prompts/application/register/1-default-centered-card.svg" alt="Register Pages preview" width="180" /> | 5 |
+<h3>Marketing sections</h3>
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/hero">
+        <img src="https://www.typeui.sh/prompts/marketing/hero/1-centered-stack-with-big-image-below.svg" alt="Hero Sections" width="220" />
+        <br /><b>Hero Sections</b>
+      </a>
+      <br /><sub>17 layouts</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/pricing">
+        <img src="https://www.typeui.sh/prompts/marketing/pricing/1-three-pricing-cards-in-a-row.svg" alt="Pricing Sections" width="220" />
+        <br /><b>Pricing Sections</b>
+      </a>
+      <br /><sub>20 layouts</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/feature">
+        <img src="https://www.typeui.sh/prompts/marketing/feature/1-left-aligned-intro-with-six-up-icon-grid.svg" alt="Feature Sections" width="220" />
+        <br /><b>Feature Sections</b>
+      </a>
+      <br /><sub>16 layouts</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/cta">
+        <img src="https://www.typeui.sh/prompts/marketing/cta/2-centered-headline-paragraph-and-dual-rounded-buttons.svg" alt="CTA Sections" width="220" />
+        <br /><b>CTA Sections</b>
+      </a>
+      <br /><sub>11 layouts</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/content">
+        <img src="https://www.typeui.sh/prompts/marketing/content/1-two-column-split-copy-and-ctas-left-video-placeholder-right.svg" alt="Content Sections" width="220" />
+        <br /><b>Content Sections</b>
+      </a>
+      <br /><sub>12 layouts</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/contact">
+        <img src="https://www.typeui.sh/prompts/marketing/contact/1-centered-heading-supporting-copy-and-stacked-form-with-dual-actions.svg" alt="Contact Sections" width="220" />
+        <br /><b>Contact Sections</b>
+      </a>
+      <br /><sub>9 layouts</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/customer-logo">
+        <img src="https://www.typeui.sh/prompts/marketing/customer-logo/1-centered-kicker-and-single-wrapping-logo-row.svg" alt="Customer Logo Sections" width="220" />
+        <br /><b>Customer Logos</b>
+      </a>
+      <br /><sub>10 layouts</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/team">
+        <img src="https://www.typeui.sh/prompts/marketing/team/1-four-column-grid-with-badge-role-and-contact-action.svg" alt="Team Sections" width="220" />
+        <br /><b>Team Sections</b>
+      </a>
+      <br /><sub>8 layouts</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/social-proof">
+        <img src="https://www.typeui.sh/prompts/marketing/social-proof/1-centered-inline-stat-row.svg" alt="Social Proof Sections" width="220" />
+        <br /><b>Social Proof</b>
+      </a>
+      <br /><sub>11 layouts</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/faq">
+        <img src="https://www.typeui.sh/prompts/marketing/faq/1-centered-heading-with-single-column-accordion.svg" alt="FAQ Sections" width="220" />
+        <br /><b>FAQ Sections</b>
+      </a>
+      <br /><sub>8 layouts</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/testimonials">
+        <img src="https://www.typeui.sh/prompts/marketing/testimonials/1-centered-single-testimonial-with-decorative-quote-mark.svg" alt="Testimonials" width="220" />
+        <br /><b>Testimonials</b>
+      </a>
+      <br /><sub>8 layouts</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/blog">
+        <img src="https://www.typeui.sh/prompts/marketing/blog/2-trending-topics-categorized-link-columns.svg" alt="Blog Sections" width="220" />
+        <br /><b>Blog Sections</b>
+      </a>
+      <br /><sub>8 layouts</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/portfolio">
+        <img src="https://www.typeui.sh/prompts/marketing/portfolio/2-uniform-six-card-grid.svg" alt="Portfolio Sections" width="220" />
+        <br /><b>Portfolio Sections</b>
+      </a>
+      <br /><sub>7 layouts</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/newsletter">
+        <img src="https://www.typeui.sh/prompts/marketing/newsletter/1-centered-stack-with-floating-avatar-portraits.svg" alt="Newsletter Sections" width="220" />
+        <br /><b>Newsletter</b>
+      </a>
+      <br /><sub>4 layouts</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/events">
+        <img src="https://www.typeui.sh/prompts/marketing/event-schedule/2-centered-single-day-ruled-timeline.svg" alt="Event Schedule Sections" width="220" />
+        <br /><b>Event Schedule</b>
+      </a>
+      <br /><sub>4 layouts</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/footer">
+        <img src="https://www.typeui.sh/prompts/marketing/footer/1-logo-links-and-copyright-centered-stack.svg" alt="Footer Sections" width="220" />
+        <br /><b>Footer Sections</b>
+      </a>
+      <br /><sub>7 layouts</sub>
+    </td>
+  </tr>
+</table>
+
+<h3>Application pages</h3>
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/login">
+        <img src="https://www.typeui.sh/prompts/application/login/2-default-centered-card.svg" alt="Login Pages" width="220" />
+        <br /><b>Login Pages</b>
+      </a>
+      <br /><sub>5 layouts</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.typeui.sh/prompts/register">
+        <img src="https://www.typeui.sh/prompts/application/register/1-default-centered-card.svg" alt="Register Pages" width="220" />
+        <br /><b>Register Pages</b>
+      </a>
+      <br /><sub>5 layouts</sub>
+    </td>
+    <td width="25%"></td>
+    <td width="25%"></td>
+  </tr>
+</table>
 
 ## CLI commands
 
