@@ -22,143 +22,143 @@ Check out all [design skills](https://www.typeui.sh/design-skills) that can be p
 
 Browse all major UI prompt categories from [TypeUI Prompts](https://www.typeui.sh/prompts).
 
-<table>
+<table bgcolor="#ffffff">
   <tr>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/hero">
         <img src="https://www.typeui.sh/prompts/marketing/hero/1-centered-stack-with-big-image-below.svg" alt="Hero Sections" width="260" />
         <br /><b>Hero Sections</b>
       </a>
-      <br /><sub>17 layouts</sub>
+      <br /><font color="#57606a"><sub>17 layouts</sub></font>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/pricing">
         <img src="https://www.typeui.sh/prompts/marketing/pricing/1-three-pricing-cards-in-a-row.svg" alt="Pricing Sections" width="260" />
         <br /><b>Pricing Sections</b>
       </a>
-      <br /><sub>20 layouts</sub>
+      <br /><font color="#57606a"><sub>20 layouts</sub></font>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/feature">
         <img src="https://www.typeui.sh/prompts/marketing/feature/1-left-aligned-intro-with-six-up-icon-grid.svg" alt="Feature Sections" width="260" />
         <br /><b>Feature Sections</b>
       </a>
-      <br /><sub>16 layouts</sub>
+      <br /><font color="#57606a"><sub>16 layouts</sub></font>
     </td>
   </tr>
   <tr>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/cta">
         <img src="https://www.typeui.sh/prompts/marketing/cta/2-centered-headline-paragraph-and-dual-rounded-buttons.svg" alt="CTA Sections" width="260" />
         <br /><b>CTA Sections</b>
       </a>
-      <br /><sub>11 layouts</sub>
+      <br /><font color="#57606a"><sub>11 layouts</sub></font>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/content">
         <img src="https://www.typeui.sh/prompts/marketing/content/1-two-column-split-copy-and-ctas-left-video-placeholder-right.svg" alt="Content Sections" width="260" />
         <br /><b>Content Sections</b>
       </a>
-      <br /><sub>12 layouts</sub>
+      <br /><font color="#57606a"><sub>12 layouts</sub></font>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/contact">
         <img src="https://www.typeui.sh/prompts/marketing/contact/1-centered-heading-supporting-copy-and-stacked-form-with-dual-actions.svg" alt="Contact Sections" width="260" />
         <br /><b>Contact Sections</b>
       </a>
-      <br /><sub>9 layouts</sub>
+      <br /><font color="#57606a"><sub>9 layouts</sub></font>
     </td>
   </tr>
   <tr>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/customer-logo">
         <img src="https://www.typeui.sh/prompts/marketing/customer-logo/1-centered-kicker-and-single-wrapping-logo-row.svg" alt="Customer Logo Sections" width="260" />
         <br /><b>Customer Logos</b>
       </a>
-      <br /><sub>10 layouts</sub>
+      <br /><font color="#57606a"><sub>10 layouts</sub></font>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/team">
         <img src="https://www.typeui.sh/prompts/marketing/team/1-four-column-grid-with-badge-role-and-contact-action.svg" alt="Team Sections" width="260" />
         <br /><b>Team Sections</b>
       </a>
-      <br /><sub>8 layouts</sub>
+      <br /><font color="#57606a"><sub>8 layouts</sub></font>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/social-proof">
         <img src="https://www.typeui.sh/prompts/marketing/social-proof/1-centered-inline-stat-row.svg" alt="Social Proof Sections" width="260" />
         <br /><b>Social Proof</b>
       </a>
-      <br /><sub>11 layouts</sub>
+      <br /><font color="#57606a"><sub>11 layouts</sub></font>
     </td>
   </tr>
   <tr>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/faq">
         <img src="https://www.typeui.sh/prompts/marketing/faq/1-centered-heading-with-single-column-accordion.svg" alt="FAQ Sections" width="260" />
         <br /><b>FAQ Sections</b>
       </a>
-      <br /><sub>8 layouts</sub>
+      <br /><font color="#57606a"><sub>8 layouts</sub></font>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/testimonials">
         <img src="https://www.typeui.sh/prompts/marketing/testimonials/1-centered-single-testimonial-with-decorative-quote-mark.svg" alt="Testimonials" width="260" />
         <br /><b>Testimonials</b>
       </a>
-      <br /><sub>8 layouts</sub>
+      <br /><font color="#57606a"><sub>8 layouts</sub></font>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/blog">
         <img src="https://www.typeui.sh/prompts/marketing/blog/2-trending-topics-categorized-link-columns.svg" alt="Blog Sections" width="260" />
         <br /><b>Blog Sections</b>
       </a>
-      <br /><sub>8 layouts</sub>
+      <br /><font color="#57606a"><sub>8 layouts</sub></font>
     </td>
   </tr>
   <tr>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/portfolio">
         <img src="https://www.typeui.sh/prompts/marketing/portfolio/2-uniform-six-card-grid.svg" alt="Portfolio Sections" width="260" />
         <br /><b>Portfolio Sections</b>
       </a>
-      <br /><sub>7 layouts</sub>
+      <br /><font color="#57606a"><sub>7 layouts</sub></font>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/newsletter">
         <img src="https://www.typeui.sh/prompts/marketing/newsletter/1-centered-stack-with-floating-avatar-portraits.svg" alt="Newsletter Sections" width="260" />
         <br /><b>Newsletter</b>
       </a>
-      <br /><sub>4 layouts</sub>
+      <br /><font color="#57606a"><sub>4 layouts</sub></font>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/events">
         <img src="https://www.typeui.sh/prompts/marketing/event-schedule/2-centered-single-day-ruled-timeline.svg" alt="Event Schedule Sections" width="260" />
         <br /><b>Event Schedule</b>
       </a>
-      <br /><sub>4 layouts</sub>
+      <br /><font color="#57606a"><sub>4 layouts</sub></font>
     </td>
   </tr>
   <tr>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/footer">
         <img src="https://www.typeui.sh/prompts/marketing/footer/1-logo-links-and-copyright-centered-stack.svg" alt="Footer Sections" width="260" />
         <br /><b>Footer Sections</b>
       </a>
-      <br /><sub>7 layouts</sub>
+      <br /><font color="#57606a"><sub>7 layouts</sub></font>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/login">
         <img src="https://www.typeui.sh/prompts/application/login/2-default-centered-card.svg" alt="Login Pages" width="260" />
         <br /><b>Login Pages</b>
       </a>
-      <br /><sub>5 layouts</sub>
+      <br /><font color="#57606a"><sub>5 layouts</sub></font>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="33%" bgcolor="#ffffff">
       <a href="https://www.typeui.sh/prompts/register">
         <img src="https://www.typeui.sh/prompts/application/register/1-default-centered-card.svg" alt="Register Pages" width="260" />
         <br /><b>Register Pages</b>
       </a>
-      <br /><sub>5 layouts</sub>
+      <br /><font color="#57606a"><sub>5 layouts</sub></font>
     </td>
   </tr>
 </table>
