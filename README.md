@@ -704,18 +704,27 @@ Get access to enhanched design skill files, UI prompts for layouts and a private
 
 ## Sponsors
 
-A huge thank you to the companies supporting our open-source work.
+A huge thank you to the companies supporting our open-source work. Want to see your logo here? [Become a sponsor](https://www.typeui.sh/sponsor).
 
 <table width="100%">
   <tr>
     <td align="center" width="33%">
       <a href="https://www.skybridge.tech/" target="_blank" rel="noopener noreferrer">
         <img src="https://github.com/user-attachments/assets/88c401ee-b19b-4b78-9a7e-325337dba529" alt="Skybridge" width="260" />
+        <br /><b>Skybridge</b>
       </a>
     </td>
-    <td align="center" width="33%">&nbsp;</td>
-    <td align="center" width="34%">&nbsp;</td>
+    <td align="center" width="33%" valign="middle">
+      <a href="https://www.typeui.sh/sponsor">
+        <b>+ Your logo here</b>
+        <br /><sub>Become a sponsor</sub>
+      </a>
+    </td>
+    <td align="center" width="33%" valign="middle">
+      <a href="https://www.typeui.sh/sponsor">
+        <b>+ Your logo here</b>
+        <br /><sub>Become a sponsor</sub>
+      </a>
+    </td>
   </tr>
 </table>
-
-If you'd like to become a sponsor of the project, please check out the [sponsorship page](https://www.typeui.sh/sponsor) on our website.
