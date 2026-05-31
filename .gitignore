@@ -13,3 +13,4 @@ coverage
 /opencode
 /mistral-vibe
 .package-lock.json
+.mcpregistry_*

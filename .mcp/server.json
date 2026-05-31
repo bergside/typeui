@@ -1,5 +1,5 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "io.github.bergside/typeui",
   "title": "TypeUI",
   "description": "Design systems, UI prompts, and layout variations for AI coding tools.",
