@@ -1,0 +1,22 @@
+{
+  "name": "bergside",
+  "interface": {
+    "displayName": "Bergside"
+  },
+  "plugins": [
+    {
+      "name": "typeui",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/bergside/typeui",
+        "path": "./plugins/codex/typeui",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

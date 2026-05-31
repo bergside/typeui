@@ -1,0 +1,43 @@
+{
+  "name": "typeui",
+  "version": "1.0.0",
+  "description": "Connect Codex to TypeUI MCP for curated design systems, UI prompts, and layout variations.",
+  "author": {
+    "name": "Bergside LLC",
+    "url": "https://www.typeui.sh"
+  },
+  "homepage": "https://www.typeui.sh",
+  "repository": "https://github.com/bergside/typeui",
+  "keywords": [
+    "typeui",
+    "codex",
+    "mcp",
+    "ui",
+    "design-systems",
+    "prompts"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "TypeUI",
+    "shortDescription": "Better UI from Codex with TypeUI MCP.",
+    "longDescription": "Connect Codex to TypeUI MCP and give it access to curated design systems, UI prompts, and layout variations for cleaner, more consistent interfaces.",
+    "developerName": "Bergside LLC",
+    "category": "Developer Tools",
+    "capabilities": [
+      "MCP",
+      "Design",
+      "Frontend"
+    ],
+    "websiteURL": "https://www.typeui.sh",
+    "privacyPolicyURL": "https://www.typeui.sh/privacy",
+    "termsOfServiceURL": "https://www.typeui.sh/terms",
+    "defaultPrompt": [
+      "Build me a landing page.",
+      "Show me three more pricing variations.",
+      "I want a dashboard with charts."
+    ],
+    "brandColor": "#111111",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg"
+  }
+}
