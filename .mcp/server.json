@@ -3,8 +3,22 @@
   "name": "io.github.bergside/typeui",
   "title": "TypeUI",
   "description": "Design systems, UI prompts, and layout variations for AI coding tools.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://www.typeui.sh",
+  "icons": [
+    {
+      "src": "https://www.typeui.sh/logo.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"],
+      "theme": "light"
+    },
+    {
+      "src": "https://www.typeui.sh/logo-dark.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"],
+      "theme": "dark"
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
