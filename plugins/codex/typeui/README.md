@@ -4,8 +4,15 @@ TypeUI connects Codex to the TypeUI MCP server so it can use curated design syst
 
 ## Install
 
+First, add the Bergside plugin marketplace so Codex can find TypeUI:
+
 ```bash
 codex plugin marketplace add bergside/typeui --sparse .agents/plugins --ref main
+```
+
+Then install the TypeUI plugin from that marketplace:
+
+```bash
 codex plugin add typeui@bergside
 ```
 

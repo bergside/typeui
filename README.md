@@ -4,7 +4,44 @@
 
 ## Getting started
 
-You can start building with TypeUI by using the NPX command:
+Install TypeUI where you build. Connect your AI coding tool to TypeUI MCP, then ask for UI in plain language while TypeUI supplies design systems, prompts, and layout variation guidance.
+
+<table>
+  <tr>
+    <th align="left">Tool</th>
+    <th align="left">Install guide</th>
+    <th align="left">What it unlocks</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://www.typeui.sh/ai-tools-logos/light/codex.svg" alt="Codex logo" width="24" />
+      <br />
+      <b>Codex</b>
+    </td>
+    <td><a href="https://www.typeui.sh/docs/guides/codex">Install TypeUI in Codex</a></td>
+    <td>Use the TypeUI Codex plugin to connect Codex to TypeUI MCP automatically.</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://www.typeui.sh/ai-tools-logos/light/claude-color.svg" alt="Claude logo" width="24" />
+      <br />
+      <b>Claude</b>
+    </td>
+    <td><a href="https://www.typeui.sh/docs/guides/claude">Install TypeUI in Claude</a></td>
+    <td>Give Claude access to curated design guidance while it writes or refactors UI.</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://www.typeui.sh/ai-tools-logos/light/cursor.svg" alt="Cursor logo" width="24" />
+      <br />
+      <b>Cursor</b>
+    </td>
+    <td><a href="https://www.typeui.sh/docs/guides/cursor">Install TypeUI in Cursor</a></td>
+    <td>Use TypeUI from your editor while Cursor builds screens, sections, and variations.</td>
+  </tr>
+</table>
+
+You can also use the TypeUI CLI directly:
 
 ```bash
 npx typeui.sh --help
