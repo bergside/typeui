@@ -1,0 +1,28 @@
+{
+  "name": "bergside",
+  "owner": {
+    "name": "Bergside LLC"
+  },
+  "description": "Bergside plugins for Claude Code.",
+  "plugins": [
+    {
+      "name": "typeui",
+      "displayName": "TypeUI",
+      "description": "Connect Claude Code to TypeUI MCP for curated design systems, UI prompts, and layout variations.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Bergside LLC"
+      },
+      "homepage": "https://www.typeui.sh",
+      "source": "./plugins/claude/typeui",
+      "category": "Design",
+      "tags": [
+        "mcp",
+        "ui",
+        "design-systems",
+        "prompts",
+        "frontend"
+      ]
+    }
+  ]
+}

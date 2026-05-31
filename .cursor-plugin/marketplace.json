@@ -1,0 +1,16 @@
+{
+  "name": "bergside",
+  "owner": {
+    "name": "Bergside LLC"
+  },
+  "metadata": {
+    "description": "Bergside plugins for Cursor."
+  },
+  "plugins": [
+    {
+      "name": "typeui",
+      "source": "plugins/cursor/typeui",
+      "description": "Connect Cursor to TypeUI MCP for curated design systems, UI prompts, and layout variations."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "typeui",
+  "displayName": "TypeUI",
+  "description": "Connect Cursor to TypeUI MCP for curated design systems, UI prompts, and layout variations.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Bergside LLC"
+  },
+  "publisher": "Bergside LLC",
+  "homepage": "https://www.typeui.sh",
+  "repository": "https://github.com/bergside/typeui",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "typeui",
+    "cursor",
+    "mcp",
+    "ui",
+    "design-systems",
+    "prompts"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "mcp",
+    "ui",
+    "design-systems",
+    "prompts",
+    "frontend"
+  ],
+  "mcpServers": "./mcp.json"
+}

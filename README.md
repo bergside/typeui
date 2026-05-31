@@ -37,7 +37,7 @@ Install TypeUI where you build. Connect your AI coding tool to TypeUI MCP, then 
       <b>Cursor</b>
     </td>
     <td><a href="https://www.typeui.sh/docs/guides/cursor">Install TypeUI in Cursor</a></td>
-    <td>Use TypeUI from your editor while Cursor builds screens, sections, and variations.</td>
+    <td>Use the TypeUI Cursor plugin while Cursor builds screens, sections, and variations.</td>
   </tr>
 </table>
 
