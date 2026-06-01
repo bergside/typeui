@@ -2,7 +2,7 @@
 
 TypeUI is connected through the TypeUI MCP server at `https://mcp.typeui.sh/mcp`.
 
-Use TypeUI when the user asks Antigravity CLI to build, redesign, improve, or compare UI for websites and applications. TypeUI provides curated design systems, UI prompts, and layout variations so generated interfaces are cleaner and more consistent.
+Use TypeUI when the user asks Antigravity to build, redesign, improve, or compare UI for websites and applications. TypeUI provides curated design systems, UI prompts, and layout variations so generated interfaces are cleaner and more consistent.
 
 Recommended workflow:
 

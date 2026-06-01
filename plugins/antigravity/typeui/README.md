@@ -4,10 +4,10 @@ TypeUI connects Antigravity to the TypeUI MCP server so it can use curated desig
 
 ## Install
 
-Install TypeUI directly from the public repository:
+For local validation from a checkout of the public repository:
 
 ```bash
-agy plugin install https://github.com/bergside/typeui
+agy plugin install ./plugins/antigravity/typeui
 ```
 
 After installation, Antigravity will connect to TypeUI through the bundled MCP configuration. Sign in with TypeUI if Antigravity asks you to authorize the connection.
@@ -34,7 +34,9 @@ Antigravity uses `serverUrl` for remote MCP servers, so the plugin ships this MC
 
 ## Directory preparation
 
-To submit TypeUI to an Antigravity plugin directory, use the repository root if the directory expects a GitHub install URL, or use `plugins/antigravity/typeui` if it expects a package folder. Both include the required `plugin.json` marker file, MCP server definition, and TypeUI usage rules.
+To submit TypeUI to an Antigravity plugin directory, use `plugins/antigravity/typeui` as the plugin package root. It contains the required `plugin.json` marker file, MCP server definition, and TypeUI usage rules.
+
+If the directory requires a GitHub URL that installs from the repository root, publish this folder as its own release artifact, branch, or dedicated repository so `plugin.json`, `mcp_config.json`, and `rules/` are at the artifact root.
 
 ## Links
 

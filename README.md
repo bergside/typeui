@@ -74,9 +74,9 @@ Install TypeUI where you build. Connect your AI coding tool to TypeUI MCP, then 
         <b>Antigravity</b>
       </a>
       <br />
-      <sub>Install the TypeUI Antigravity plugin for UI generation workflows.</sub>
+      <sub>Connect Antigravity to TypeUI MCP for UI generation workflows.</sub>
       <br /><br />
-      <a href="https://www.typeui.sh/docs/guides/antigravity"><b>Install in Antigravity →</b></a>
+      <a href="https://www.typeui.sh/docs/guides/antigravity"><b>Open Antigravity guide →</b></a>
     </td>
   </tr>
 </table>

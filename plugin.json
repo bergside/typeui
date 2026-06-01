@@ -1,6 +1,6 @@
 {
   "name": "typeui",
-  "description": "Connect AI coding tools to TypeUI for curated design systems, UI prompts, and layout variations.",
+  "description": "Connect GitHub Copilot in VS Code to TypeUI for curated design systems, UI prompts, and layout variations.",
   "version": "1.0.0",
   "author": {
     "name": "Bergside LLC",
@@ -13,7 +13,6 @@
   "category": "Design",
   "keywords": [
     "typeui",
-    "antigravity",
     "vscode",
     "github-copilot",
     "mcp",
