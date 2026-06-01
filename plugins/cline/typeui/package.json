@@ -1,0 +1,48 @@
+{
+  "name": "@bergside/cline-typeui",
+  "version": "1.0.0",
+  "description": "Cline plugin and MCP setup helper for TypeUI.",
+  "type": "module",
+  "main": "index.ts",
+  "exports": "./index.ts",
+  "files": [
+    "index.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "typeui",
+    "cline",
+    "mcp",
+    "ui",
+    "design-systems",
+    "prompts"
+  ],
+  "homepage": "https://www.typeui.sh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bergside/typeui.git",
+    "directory": "plugins/cline/typeui"
+  },
+  "license": "MIT",
+  "cline": {
+    "plugins": [
+      {
+        "paths": [
+          "./index.ts"
+        ],
+        "capabilities": [
+          "tools"
+        ]
+      }
+    ]
+  },
+  "peerDependencies": {
+    "@cline/sdk": "*"
+  },
+  "peerDependenciesMeta": {
+    "@cline/sdk": {
+      "optional": true
+    }
+  }
+}
+

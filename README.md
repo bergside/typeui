@@ -57,6 +57,20 @@ Install TypeUI where you build. Connect your AI coding tool to TypeUI MCP, then 
       <a href="https://www.typeui.sh/docs/guides/vscode"><b>Install in VS Code →</b></a>
     </td>
     <td align="center" width="33%">
+      <a href="https://www.typeui.sh/docs/guides/antigravity">
+        <img src="https://www.typeui.sh/ai-tools-logos/light/antigravity.svg" alt="Antigravity logo" width="48" height="48" />
+        <br /><br />
+        <b>Antigravity</b>
+      </a>
+      <br />
+      <sub>Connect Antigravity to TypeUI MCP for UI generation workflows.</sub>
+      <br /><br />
+      <a href="https://www.typeui.sh/docs/guides/antigravity"><b>Open Antigravity guide →</b></a>
+    </td>
+    <td align="center" width="33%"></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
       <a href="https://www.typeui.sh/docs/guides/opencode">
         <img src="https://www.typeui.sh/ai-tools-logos/light/opencode.svg" alt="OpenCode logo" width="48" height="48" />
         <br /><br />
@@ -68,15 +82,26 @@ Install TypeUI where you build. Connect your AI coding tool to TypeUI MCP, then 
       <a href="https://www.typeui.sh/docs/guides/opencode"><b>Install in OpenCode →</b></a>
     </td>
     <td align="center" width="33%">
-      <a href="https://www.typeui.sh/docs/guides/antigravity">
-        <img src="https://www.typeui.sh/ai-tools-logos/light/antigravity.svg" alt="Antigravity logo" width="48" height="48" />
+      <a href="https://www.typeui.sh/docs/guides/windsurf">
+        <img src="https://www.typeui.sh/ai-tools-logos/light/windsurf.svg" alt="Windsurf logo" width="48" height="48" />
         <br /><br />
-        <b>Antigravity</b>
+        <b>Windsurf</b>
       </a>
       <br />
-      <sub>Connect Antigravity to TypeUI MCP for UI generation workflows.</sub>
+      <sub>Connect Windsurf Cascade to TypeUI MCP.</sub>
       <br /><br />
-      <a href="https://www.typeui.sh/docs/guides/antigravity"><b>Open Antigravity guide →</b></a>
+      <a href="https://www.typeui.sh/docs/guides/windsurf"><b>Install in Windsurf →</b></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.typeui.sh/docs/guides/cline">
+        <img src="https://www.typeui.sh/ai-tools-logos/light/cline.svg" alt="Cline logo" width="48" height="48" />
+        <br /><br />
+        <b>Cline</b>
+      </a>
+      <br />
+      <sub>Install the TypeUI Cline plugin or connect the hosted MCP server.</sub>
+      <br /><br />
+      <a href="https://www.typeui.sh/docs/guides/cline"><b>Install in Cline →</b></a>
     </td>
   </tr>
 </table>

@@ -9,6 +9,7 @@ Tool-specific TypeUI plugins live in provider namespaces:
 - `claude/typeui` for the Claude Code plugin and Claude marketplace package.
 - `cursor/typeui` for the Cursor plugin and Cursor marketplace package.
 - `vscode/typeui` for the VS Code / GitHub Copilot agent plugin and MCP configuration.
+- `cline/typeui` for the Cline plugin and MCP setup helper.
 - `opencode/typeui` for the OpenCode helper plugin and MCP configuration.
 - `antigravity/typeui` for the Antigravity CLI plugin and MCP configuration.
 
