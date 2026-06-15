@@ -87,6 +87,14 @@ When padding differs per side, use the **smallest inset** that separates the cur
 - Match vertical padding, font size, line-height, and border width so the outer edges line up. If the design system defines button height, **derive the input height from that token** — do not invent a second size.
 - This rule applies to text fields, search fields, selects, and textareas paired with a button in a horizontal group. Stacked layouts (input above button) are exempt.
 
+### Icon inset on inputs must balance both sides
+
+- When an input carries a **leading or trailing icon** (search magnifier, mail glyph, currency symbol, etc.), the placeholder and typed text sit **after** the icon — not centered in the full field.
+- **The gap from the icon to the input edge must equal the gap from the icon to the placeholder/text.** If the icon sits 12px from the start edge, leave 12px between the icon and where the text begins. Asymmetric spacing makes the field feel lopsided: text hugging the icon on one side while the icon floats too far from the border on the other.
+- Measure both gaps on the **same axis** — inline-start edge → icon → text start (LTR: left edge → icon → text). Trailing icons mirror the rule on the inline-end side.
+- Derive input text padding from the design system's icon inset token: `textPaddingStart = iconInset + iconWidth + iconInset` (or the equivalent in your stack). Do not pad text from the field edge alone and bolt the icon on with a separate, smaller inset.
+- Applies to search fields, text inputs, textareas, and selects with inline icons. Icon-only buttons attached to the field (clear, reveal password) follow the input + button row rule above for height; this rule governs **in-field** icon spacing only.
+
 ### Button labels must not wrap — buttons must not shrink
 
 - **Button label text must stay on one line** — wrapping to a second line is forbidden. Multi-line buttons break height rhythm, misalign adjacent controls, and read as broken layout, not intentional design.
