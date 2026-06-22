@@ -255,6 +255,24 @@ On landing / marketing pages, the navbar's content must line up with the page's 
 
 **Quick check:** Drop a vertical guide on the section's left and right content edges. Do the navbar's logo and CTA land on those same two lines?
 
+### Marketing & e-commerce content width is 1280px
+
+On **marketing** and **e-commerce** surfaces, the content column has a single canonical max-width: **1280px**. Every section, every band, and the navbar all cap their inner content at the same 1280px so the whole page shares one consistent content edge top to bottom.
+
+- **One width for the whole page.** All marketing / store sections (hero, features, pricing, testimonials, product grid, PDP, cart, footer) constrain their **inner content** to **1280px**. The navbar's inner content uses the **same 1280px** (see *Landing-page navbar width* above) so logo and CTA align to the section edges.
+- **Full-bleed band, capped content.** Section **backgrounds** (color, image, gradient) may still run edge-to-edge across the viewport. It is the **inner content wrapper** that is locked to 1280px — the band is full width, the content is not.
+- **Narrower only when the component demands it.** When a single component should not be that wide — a standalone accordion / FAQ, a reading column (long-form copy at 45–75 chars/line per §4.1), a login or checkout form card, a single dialog — give **that component** its own narrower max-width inside the 1280px column. The exception is the **component**, not the section: the section still uses the 1280px container; only the inner element is narrowed.
+- **Implementation:** define one shared container token / class (e.g. `--content-max-width: 1280px`) and apply it to every marketing/store section and the navbar. Do not hard-code per-section widths. Narrow components get a separate, smaller max-width token (e.g. `--reading-max-width`, `--form-max-width`) nested inside the 1280px wrapper.
+
+**Scope.** Applies **only** to marketing and e-commerce surfaces. It does **not** apply to **dashboards / application UI** — those are **full width** or follow the **app-shell layout width defined by the typeui MCP / design system** (sidebar + fluid main, fixed content panes, etc.), never the 1280px marketing column.
+
+**Quick check:**
+
+- Every marketing/store section + navbar content capped at 1280px?
+- Backgrounds may be full-bleed, but content stays within 1280px down the whole page?
+- Only genuinely narrow components (single accordion, reading column, form card) use a smaller width — and they sit inside the 1280px container, not replace it?
+- Dashboard / app surfaces use the app-shell width, not 1280px?
+
 ---
 
 # Pillar 1 — Constraints
