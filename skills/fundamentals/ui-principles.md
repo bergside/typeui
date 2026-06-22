@@ -96,6 +96,17 @@ When padding differs per side, use the **smallest inset** that separates the cur
 - Derive input text padding from the design system's icon inset token: `textPaddingStart = iconInset + iconWidth + iconInset` (or the equivalent in your stack). Do not pad text from the field edge alone and bolt the icon on with a separate, smaller inset.
 - Applies to search fields, text inputs, textareas, and selects with inline icons. Icon-only buttons attached to the field (clear, reveal password) follow the input + button row rule above for height; this rule governs **in-field** icon spacing only.
 
+### Native selects must replace the default arrow
+
+The browser's native `<select>` arrow is an OS-rendered glyph jammed against the right edge with no controllable spacing. Left as-is it looks cramped, clashes with every other styled input, and on dark surfaces opens a white option list. A native select must be restyled to match the design system's other controls.
+
+- **Strip the native arrow.** Set `appearance: none` (plus `-webkit-appearance` / `-moz-appearance` for legacy engines) so the default glyph is removed and you control the indicator.
+- **Render a custom chevron** (SVG icon or background image) positioned a consistent inset from the inline-end edge — use the **same icon inset token** the design system uses elsewhere (e.g. 12px). Do not let it sit flush against the border.
+- **Reserve trailing padding so text never collides with the chevron.** Derive it the same way as the in-field icon rule above: `paddingInlineEnd = chevronInset + chevronWidth + chevronInset` (≈ `2.5rem` for a 16px chevron at a 12px inset). The trailing chevron inset must mirror the leading text inset so the field reads balanced, not lopsided.
+- **Match sibling input states.** Style default, hover, focus, and disabled to match adjacent text fields — same border, fill, and focus ring (apply the same-background contrast rule above). A select must not read as a different control family.
+- **Fix the option list on dark surfaces.** Set `color-scheme: dark` (on the select or a root scope) so the still-OS-rendered expanded option list uses dark menu chrome instead of a default white popup.
+- Applies to every native `<select>` and multi-select. If a richer custom dropdown (listbox / combobox) is used instead, it follows the widget size token and icon-inset rules here plus the keyboard conventions in §12.2.
+
 ### Button labels must not wrap — buttons must not shrink
 
 - **Button label text must stay on one line** — wrapping to a second line is forbidden. Multi-line buttons break height rhythm, misalign adjacent controls, and read as broken layout, not intentional design.
@@ -230,6 +241,19 @@ Map `spacing-24` (or the system’s **96px / 6rem** section-gap token) to the fi
 - Anchor / hash navigation → **`scroll-padding-top ≥ navbarOuterHeight`**?
 - Nav height remeasured after breakpoint or promo-strip change?
 - Readable hero copy starts **below** the bar with visible **96px** air, not touching the nav shadow?
+
+### Landing-page navbar width must match the section content width
+
+On landing / marketing pages, the navbar's content must line up with the page's content column. If the sections constrain their content to a max-width, **the navbar's inner content uses the same max-width** so the logo, nav links, and CTA align to the exact same left and right edges as the content below.
+
+- **Match the section content max-width.** Sections at `1280px` → navbar content container at `1280px`. Sections at `1024px` → navbar content at `1024px`. Whatever value the sections use, the navbar inner wrapper uses the **same token / value**.
+- **Align the edges, not just the number.** Logo snaps to the section's left content edge; the trailing CTA / nav cluster snaps to the right content edge — same horizontal padding/gutter as the sections. The navbar reads as part of the same grid, never wider or narrower than the content it sits above.
+- **Bar vs. content.** The navbar **background / border / shadow** may still span full viewport width (edge-to-edge bar). It is the **inner content wrapper** that is constrained to the section width — exactly like the sections, where the band is full-bleed but the content is capped.
+- **Implementation:** use the **same max-width container** (same class, token, or `--content-max-width` variable) for the navbar inner wrapper and the section inner wrappers. Do not hard-code a different navbar width. When the section width changes at a breakpoint, the navbar content width changes with it.
+
+**Scope — landing pages only.** This rule applies to **landing / marketing / storefront-hero pages**. It does **not** apply to application UI, dashboards, settings, modals, or app chrome — those use full-width or app-shell navigation widths defined by the design system, not the marketing content column.
+
+**Quick check:** Drop a vertical guide on the section's left and right content edges. Do the navbar's logo and CTA land on those same two lines?
 
 ---
 
@@ -461,6 +485,7 @@ Do not add a divider between elements already grouped by proximity — it double
 - **DO** use proximity as the primary grouping mechanism.
 - **DO** keep heading-to-body tighter than section-to-section spacing.
 - **DO** reserve hero top space when the nav is sticky/fixed: **`padding-top = navbarOuterHeight + 96px`** on the hero section; set **`scroll-padding-top ≥ navbarOuterHeight`** for anchors (§0.1).
+- **DO** on landing pages, constrain the navbar's inner content to the **same max-width as the page sections** so the logo and CTA align to the section content edges (§0.1) — does not apply to app/dashboard/modal chrome.
 - **DO NOT** rely on a grid as the only layout tool — combine with fixed/max-widths.
 - **DO NOT** use equal spacing everywhere — differentiate inner-group from between-group.
 - **DO NOT** add borders or dividers when proximity alone communicates the grouping.
@@ -658,6 +683,7 @@ For content whose shape is predictable (lists, cards, profiles), display skeleto
 ### Selectors
 - Avoid dropdowns for 3–5 options — use radio cards or tabs that show all options at once.
 - Add filter/search to long dropdowns. Show popular choices at the top.
+- Restyle native `<select>` — strip the default arrow (`appearance: none`), add a custom chevron with balanced inset and reserved trailing padding, match sibling input states, and set `color-scheme: dark` on dark surfaces (§0.1).
 - Toggles are for settings that take immediate effect. Checkboxes are for options confirmed by a separate action. Do not mix them.
 - Align checkboxes to the top of the first text line, not the vertical center.
 
