@@ -489,9 +489,9 @@ Check out all [design skills](https://www.typeui.sh/design-skills). Available in
       </a>
     </td>
     <td align="center" width="33%">
-      <a href="https://www.typeui.sh/design-skills/luxury">
-        <img src="./registry-examples/luxury.png" alt="Luxury" width="260" />
-        <br /><b>Luxury</b>
+      <a href="https://www.typeui.sh/design-skills/power">
+        <img src="./registry-examples/power.png" alt="Power" width="260" />
+        <br /><b>Power</b>
       </a>
     </td>
     <td align="center" width="33%">
